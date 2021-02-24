@@ -1,0 +1,23 @@
+{
+  "name": "server-side-jsx",
+  "version": "0.0.8",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/plugin-transform-react-jsx": "^7.12.5",
+    "@babel/register": "^7.12.1",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
+    "jsdom": "^16.4.0",
+    "posthtml": "^0.13.4",
+    "posthtml-beautify": "^0.7.0"
+  },
+  "bin": {
+    "jsx": "./bin/index.js"
+  }
+}
